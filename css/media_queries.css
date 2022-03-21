@@ -1,0 +1,153 @@
+
+/* desktop extra */
+@media(min-width: 1185px){ 
+  html{
+    font-size: 10px;
+  }
+      /* count number */
+      .col-lg-3-i, .col-xl-3-i{
+        width: 19%;
+        margin: 1%;
+      }
+}
+/* desktop-medium */
+@media(min-width: 990x) and (max-width:1184px){ 
+  html{
+    font-size: 9px;
+  }
+  
+      /* header */
+      .navbar-brand{
+        font-size: 2.1rem;
+       }
+      .navbar-nav>li a{
+        font-size: 1.2rem;
+      }
+      /* banner */
+       .display-5{
+         font-size: 2.7rem!important;
+       }
+       .display-p{
+         font-size: 1.4rem!important;
+       }
+       .carousel-indicators [data-bs-target] {
+        width: 2.5rem;
+       }
+       .carousel-control-next,.carousel-control-prev{
+          bottom:15%;
+       }
+          /* gallery-card  */
+      .product h1{
+        font-size: 5.2rem;
+      }
+      .product h3{
+        font-size: 3.2rem;
+        position: absolute;
+        top: 43%;
+      }
+      /* count number */
+      .col-lg-3-i, .col-xl-3-i{
+        width: 19%;
+        margin: 1%;
+      }
+}
+/* tablet */
+@media(min-width:767px) and (max-width: 990px)
+{
+      html{
+        font-size: 8px;
+      }
+      /* header */
+      .navbar-brand{
+        font-size: 2.1rem;
+       }
+      /* banner */
+      .display-5{
+      font-size: 2.4rem!important;
+      }
+      .display-p{
+        font-size: 1.2rem!important;
+      }
+      .carousel-indicators [data-bs-target] {
+        width: 2.2rem;
+       }
+      .carousel-control-next,.carousel-control-prev{
+        bottom:25%;
+      }
+      .d-flex {
+        width: 40%;
+        }
+      /* gallery-card  */
+      .product h1{
+        font-size: 4.2rem;
+      }
+      .product h3{
+        font-size: 2.5rem;
+        position: absolute;
+        top: 45%;
+      }
+      /* count number */
+      .col-md-6-i{
+        width: 47%;
+        margin: 0.5rem;
+      }
+      /* footer */
+}
+/* smart-phone */
+@media(max-width:767px) {
+  html{
+    font-size: 7px;
+    }
+    /* header */
+  .navbar-brand{
+    font-size: 1.7rem;
+   }
+   /* banner */
+    .carousel-indicators [data-bs-target] {
+      width: 2rem;
+     }
+     .carousel-control-next,.carousel-control-prev{
+      bottom:25%;
+    }
+    .d-flex {
+      width: 40%;
+    }
+    /* about */
+            /* giới thiệu */
+                  .about-top .noidung{
+                    width: 100%;
+                  }
+                  .noidung h5{
+                    text-align: center;
+                  }
+                  .hinh-about{
+                    display: none;
+                  }
+              /* NHỮNG TRẢI NGHIỆM THÚ VỊ BÊN TÁCH CAFE*/
+                  .tab_sub .img-trainghiem{
+                    display: none;  
+                  }
+      /* gallery-card  */
+      .product h1{
+        font-size: 3rem;
+      }
+      .product h3{
+        font-size: 1.7rem;
+        position: absolute;
+        top: 45%;
+      }
+  /* footer */
+  #footer{
+    text-align: center;
+  }
+  .copyright{
+    padding-left: 5rem;
+  }
+  .display_center{
+    display: flex;
+    justify-content: center;
+  }
+  .footer .padding_right{
+    padding-right: 3rem;
+  }
+}
